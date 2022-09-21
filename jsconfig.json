@@ -3,7 +3,8 @@
         "baseUrl": ".",
         "paths": {
             "@/*": ["resources/js/*"]
-        }
+        },
+        "jsx": "preserve", //追記
     },
     "exclude": ["node_modules", "public"]
 }
